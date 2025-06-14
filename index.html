@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Fundamentos de CSS</title>
+</head>
+<body>
+    <header>Box model</header>
+   <nav>
+    <ul>
+       <li> <a href="index.html">Box model</a></li>
+       <li><a href="Pagina2.html">Posicionamiento y visualización</a></li>
+       <li><a href="Pagina3.html">Flexbox y grid</a></li>
+    </ul>
+    </nav>
+    <main>
+        <p>Es la forma en que CSS estructura todos 
+            los elementos como cajas rectangulares.
+             Entender el modelo de caja es clave 
+             para controlar el espacio entre 
+             elementos y su diseño.</p><br>
+             <p> <p class="titulo"> Partes del modelo de caja:</p>
+<ul>
+    <li class="list"><b>Contenido (content):</b> el texto o imagen dentro del elemento.</li>
+<li class="list"><b>Relleno (padding):</b> espacio entre el contenido y el borde.</li>
+<li class="list"><b>Borde (border):</b> el marco que rodea al padding.</li>
+<li class="list"><b>Margen (margin):</b> espacio entre el borde del elemento y otros elementos.</li>
+</ul></p>
+    <div class="prin">     
+        <div class="sol">
+            <p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+        </div class="titulo">
+        <p> content-box</p>
+        <li class="list">Se incluye solamente el alto y el ancho segun el contenido</li>
+        <div class="sol2">
+            <p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+        </div> 
+        <p> <p class="titulo"> border-box</p>
+        <li class="list">El ancho y alto incluyen padding y border.</li>    
+        <div  class="sol3">
+            <p>Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+        </div>
+    </div>      
+    </main>
+</body>
+</html>

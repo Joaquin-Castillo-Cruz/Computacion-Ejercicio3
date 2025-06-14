@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/Style3.css">
+    <title>Fundamentos de CSS</title>
+</head>
+<body>
+    <header>Flexbox y grid</header>
+    <nav>
+        <a href="index.html">Box model</a>
+        <a href="Pagina2.html">Posicionamiento y visualización</a>
+        <a href="Pagina3.html">Flexbox y grid</a>
+    </nav>
+    <main>
+        <p> <p class="titulo"> Flexbox (Flexible Box Layout)</p>
+        <p>Ideal para alinear elementos horizontal o verticalmente.
+
+Paso 1: Crear un contenedor flexible<br>
+
+<br><font color="blue">.container {
+
+  display: flex;
+
+}</font><br>
+<br><b><center><font size="20">Propiedades útiles:</font></center></b>
+</p><br>
+<ul>
+    <li class="list"><b>justify-content:</b> Alinea horizontalmente (flex-start, center, space-between, space-around)</li>
+</ul></p>
+         <div class="prin">     
+        <div  class="sol">
+            <p>Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+        </div>
+        <div  class="sol1">
+            <p>Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+        </div>
+        <li class="list"><b>align-items:</b> Alinea verticalmente (flex-start, center, stretch)</li>
+        <div class="sol2">
+            <p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+
+            <p>Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+
+            <p>Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+
+
+        </div> 
+        <li class="list"><b>flex-direction:</b> Dirección de los elementos (row, column)</li>    
+        <div class="sol3">
+        <p>Cuando despertó, el dinosaurio todavía estaba allí.
+        FIN </p>
+        </div>    
+        <div class="sol4" >
+        <p>Cuando despertó, el dinosaurio todavía estaba allí.
+        FIN </p>
+        </div> 
+        
+        <p> <p class="titulo"> CSS Grid</p>
+        <p>Ideal para diseños más complejos con filas y columnas.
+
+.<br>
+
+<br><font color="blue">grid-container {
+
+  display: grid;
+
+  grid-template-columns: 1fr 2fr;
+
+  grid-gap: 20px;
+
+}</font><br>
+        <li class="list"><b>grid-template-columns:</b> Define columnas.</li>
+        
+            <div class="sol5"><p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p></div>
+             <div class="sol5"><p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p></div> 
+        <li class="list"><b>grid-template-rows:</b> Define filas.</li>
+        <div class="sol6">
+            <p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+            <p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+            <p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p> 
+        </div> 
+        <li class="list"><b>grid-area:</b> Permite colocar elementos por nombre o coordenadas.</li>
+        <div class="sol7">
+            <p >Cuando despertó, el dinosaurio todavía estaba allí.
+            FIN </p>
+        </div> 
+    </main>
+</body>
+</html>
