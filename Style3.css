@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(184, 184, 184);
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+    color: black
+}
+nav{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(81, 190, 154);
+    height: 50%;
+}
+ul{ display: flex;
+    flex-direction: row;
+  justify-content: center;
+}
+li
+{
+  
+ text-align: center;
+  width: 100px;
+  padding: 20px;
+  border: 9px rgb(3, 131, 182);
+  margin: 30px;
+  align-content: center;
+  background-color: rgb(8, 164, 226);
+  vertical-align: middle;
+}
+ul li{
+    padding: 10px;
+    list-style: none;
+}
+div{
+  place-items: center;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(3, 131, 182);
+  
+}
+.prin
+{
+  justify-content: center;
+  background-color: rgb(184, 184, 184);
+}
+.sol{/*importante*/
+  font-size: 20px;
+  margin: 50px;
+    border: 6px rgb(2, 77, 107);
+
+}
+.titulo{
+  font-weight: bold;
+  color: rgb(0, 30, 126);
+}
+.list{
+  display: block;
+  font-size: 20px;
+  list-style: circle;
+  margin: 50px;
+  padding: 10px;
+  background-color: rgb(5, 85, 175);
+  text-align: center;
+  width: 550px;
+}
+
+p{
+  font-size: 25px;
+  text-align: center;
+}
+.sol{
+  display: flex;
+    box-sizing: border-box;
+    border: 3px rgb(2, 77, 107);
+    justify-content: flex-start;
+}
+.sol1{
+    box-sizing: border-box;
+    border: 3px rgb(2, 77, 107);
+    justify-content: right;
+}
+.sol2{
+    display: flex;
+    box-sizing: border-box;
+    border: 3px rgb(2, 77, 107);
+    justify-content:space-between;
+
+}
+.sol3{
+  display: flex;
+    box-sizing: border-box;
+    border: 3px rgb(2, 77, 107);
+    flex-direction: column;
+}
+.sol4{
+    box-sizing: border-box;
+        flex-direction: row;
+
+    border: 3px rgb(2, 77, 107);
+}
+.sol5{
+  display: grid;
+    box-sizing: border-box;
+        grid-template-columns:  8ch auto;
+
+    border: 3px rgb(2, 77, 107);
+}
+.sol6{
+  display: grid;
+    box-sizing: border-box;
+    grid-template-rows: 150px auto auto;
+    border: 3px rgb(2, 77, 107);
+}
+.sol7{
+  display: grid;
+    box-sizing: border-box;
+ grid-area: 1;
+    border: 3px rgb(2, 77, 107);
+}
+

@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(184, 184, 184);
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+    color: black
+}
+nav{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(81, 190, 154);
+    height: 50%;
+}
+ul{ display: flex;
+    flex-direction: row;
+  justify-content: center;
+}
+li
+{
+  
+ text-align: center;
+  width: 100px;
+  padding: 20px;
+  border: 9px rgb(3, 131, 182);
+  margin: 30px;
+  align-content: center;
+  background-color: rgb(8, 164, 226);
+  vertical-align: middle;
+}
+ul li{
+    padding: 10px;
+    list-style: none;
+}
+div{
+  place-items: center;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(3, 131, 182);
+  
+}
+.prin
+{
+  justify-content: center;
+  background-color: rgb(4, 56, 168);
+}
+.sol{/*importante*/
+  font-size: 20px;
+  margin: 50px;
+    border: 6px rgb(2, 77, 107);
+    position: static;
+
+}
+.sol1{/*importante*/
+  font-size: 20px;
+  margin: 50px;
+    border: 6px rgb(2, 77, 107);
+    position: relative;
+   
+    top: 40px;
+    left: 40px;
+}
+.sol2{/*importante*/
+  font-size: 5px;
+  margin: 10px;
+    border: 6px rgb(2, 77, 107);
+position: absolute ;
+inset-inline-start: 125px;
+inset-block-start: 1025px;
+
+}
+.sol3{/*importante*/
+   font-size: 50px;
+   margin: 0px;
+    border: 6px rgb(2, 77, 107);
+    position: fixed;
+    bottom: 350px;
+  right: 200px;
+  width: 200px;
+
+}
+.sol4{/*importante*/
+  font-size: 20px;
+  margin: 50px;
+  width: 500px;
+  justify-content: center;
+  border: 6px rgb(20, 107, 2);
+  position: sticky;
+  bottom: 0px;
+  top: 10px;
+}
+
+.sep{
+  width: 90px;
+    background-color: rgb(184, 184, 184);
+
+}
+
+.titulo{
+  font-weight: bold;
+  color: rgb(0, 30, 126);
+}
+.list{
+  display: block;
+  font-size: 20px;
+  list-style: circle;
+  margin: 50px;
+  padding: 10px;
+  background-color: rgb(5, 85, 175);
+  text-align: center;
+  width: 550px;
+}
+main{
+  justify-content: center;
+}
+p{
+  text-align: center;
+  font-size: 25px;
+}
+.fun{
+    box-sizing: border-box;
+    border: 3px rgb(2, 77, 107);
+}
