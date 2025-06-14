@@ -116,7 +116,7 @@ p{
 .sol7{
   display: grid;
     box-sizing: border-box;
- grid-area: 1;
+ grid-area: a;
     border: 3px rgb(2, 77, 107);
 }
 
